@@ -2,21 +2,17 @@ function ExpenseTable({ expenses, onDeleteExpense }) {
     return (
       <table border="1" cellPadding="10">
         <thead>
-
           <tr>
             <th>Name</th>
             <th>Description</th>
             <th>Category</th>
-            <th>Amount (KES)</th>
+            <th>Amount</th>
             <th>Date</th>
             <th>Action</th>
           </tr>
-
         </thead>
-
         <tbody>
-          {expenses.length > 0 ? (
-            expenses.map((exp) => (
+          {expenses.length > 0 ? (expenses.map((exp) => (
               <tr key={exp.id}>
                 <td>{exp.name}</td>
                 <td>{exp.description}</td>
@@ -29,8 +25,7 @@ function ExpenseTable({ expenses, onDeleteExpense }) {
 
               </tr>
             ))
-          ) : (
-            <tr>
+          ) : (<tr>
               <td style={{ textAlign: "center" }}>No expenses added.</td>
             </tr>
           )}
