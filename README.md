@@ -1,6 +1,6 @@
 # Smart expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This  simple website enables us to put up the expenses in our daily lives with help to setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
