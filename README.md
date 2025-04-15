@@ -4,11 +4,6 @@
 # Author
 Joram Wayne Muya Maina.
 
-#
-
-
-
-
 A simple and interactive Expense Tracker application built with React. It allows users to track their expenses, add new entries, filter expenses by category or search term, sort them by amount or date, and delete items. The project showcases React fundamentals like state management, props, component-based architecture, controlled forms, and conditional rendering.
 
 ##  Features
@@ -31,7 +26,7 @@ A simple and interactive Expense Tracker application built with React. It allows
 ##  How to Run the App Locally
 
 1. **Clone the repo**
-   git clone https://github.com/yourusername/expense-tracker.git
+   git clone https://joram-tec.github.io/Phase-2-expense/
    cd expense-tracker
 
 2. **Site live at :**
