@@ -1,18 +1,47 @@
-# Smart expense Tracker
+#  React Expense Tracker
 
-This  simple website enables us to put up the expenses in our daily lives with help to setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Author
+Joram Wayne Muya Maina.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+A simple and interactive Expense Tracker application built with React. It allows users to track their expenses, add new entries, filter expenses by category or search term, sort them by amount or date, and delete items. The project showcases React fundamentals like state management, props, component-based architecture, controlled forms, and conditional rendering.
+
+##  Features
+
+-  View a list of all your expenses in a clean, responsive table layout.
+-  Add new expenses with a form including category, description, date, and amount.
+-  Filter expenses by category or search for specific entries.
+-  Sort expenses by date or amount.
+-  Delete an expense entry.
+-  Get a quick summary of total expenses.
+-  Real-time updates without refreshing the page.
+
+##  Technologies used
+
+- **React** (useState, useEffect)
+- **JavaScript**
+- **CSS / Tailwind (optional)**
+- **Vite / Create React App** (depending on your setup)
+
+##  How to Run the App Locally
+
+1. **Clone the repo**
+   git clone https://github.com/yourusername/expense-tracker.git
+   cd expense-tracker
+
+2. **Site live at :**
+http://localhost:5173 
 
 ## Development 
 npm install
 
 ## Access
 npm run dev
+
+
+## MIT Licensed
